@@ -1,0 +1,27 @@
+{
+  "name": "monarch-themes",
+  "displayName": "Monarch Themes",
+  "description": "Monarch Devs VSCode themes",
+  "publisher": "IlMelons",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Monarch-Devs/monarch-themes.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Monarch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_monarch-color-theme.json"
+      }
+    ]
+  },
+  "icon": "images/monarch-themes.png"
+}
